@@ -1,0 +1,5 @@
+pandas
+numpy
+feedparser
+python-dotenv
+tinkoff-investments
