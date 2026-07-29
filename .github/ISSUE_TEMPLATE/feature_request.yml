@@ -1,0 +1,23 @@
+name: Предложение функции
+description: Предложить улучшение проекта
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Проблема
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Предлагаемое решение
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Влияние на риск и торговую логику
+    validations:
+      required: true

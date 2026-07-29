@@ -1,21 +1,31 @@
-# Секреты — НИКОГДА не коммитить
 .env
-
-# Виртуальное окружение
+.env.*
+!.env.example
 venv/
 .venv/
-
-# Python
+env/
+ENV/
 __pycache__/
-*.pyc
-*.pyo
-
-# Отчёты и логи (генерируются агентом, не нужны в репозитории)
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
 reports/
-
-# IDE
-.vscode/
+*.log
+*.pid
 .idea/
-
-# OS
+.vscode/
+*.swp
+*.swo
 .DS_Store
+Thumbs.db
+.ipynb_checkpoints/

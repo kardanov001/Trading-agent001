@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Вопрос по безопасности
+    url: https://github.com/kardanov001/Trading-agent001/security
+    about: Не публикуйте сведения об уязвимости в открытом issue
